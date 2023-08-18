@@ -1,4 +1,3 @@
-
 function getInputValue(inputId) {
   const inputFeild = document.getElementById(inputId);
   const inputValueText = inputFeild.value;

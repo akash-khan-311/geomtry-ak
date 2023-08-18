@@ -61,10 +61,10 @@ function calculateEllipseArea() {
   const major = getInputValue("ellipse-major");
   const minor = getInputValue("ellipse-minor");
   // Validate The Function
-  if (typeof base !== "number" || typeof height !== "number") {
+  if (typeof major !== "number" || typeof minor !== "number") {
     alert("Please Type a valid number");
     return;
-  } else if (isNaN(base) || isNaN(height)) {
+  } else if (isNaN(major) || isNaN(minor)) {
     alert("Invalid Input");
     return;
   }
